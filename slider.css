@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+.lead{
+    width: 800px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #000;
+}
+
+nav #achor{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    gap: 50px;
+}
+
+nav #achor li{
+  font-size: 1.7vw;
+}
+
+nav #achor li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 400;
+}
+
+#logo{
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+}
+
+#logo i{
+    position: absolute;
+    top : -23px;
+    margin-left: 3vw;
+    font-size: 80px;
+    color: white;
+}
+
+main{
+    width: 100%;
+    height: 40%;
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.sponser{
+    width: 80%;
+    height: 100%;
+    background-color: red;
+}
+
+
+
+
+#page1-footer{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    width: 100%;
+    padding: 20px 20px;
+}
+
+
+
+#page1-footer h1{
+    font-size: 3.5vw;
+    height: fit-content;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    text-transform: uppercase;
+
+}
+
+#box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    height: 390px;
+    background-color: rgba(243, 239, 239, 0.886);
+    padding: 15px 0px;
+    margin-top: 36px;
+    margin-right: 13px;
+    box-shadow: 3px 3px 10px #000;
+}
+
+
+#box .image{
+    width: 210px;
+    height: 210px;
+}
+
+#box .boxImg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#box a{
+    width: 88%;
+    margin-top: 24px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.4vw;
+    display: flex;
+    justify-content: center;
+    color: #000;
+}

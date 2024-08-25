@@ -1,7 +1,8 @@
-const left = document.querySelector('#next') 
-const right = document.querySelector('#prev')
-const slider = document.querySelectorAll('#slider')
-
-right.addEventListener('click', () => {
-  slider.style.transform = `translateX(-500px)`;
-})
+// var counter = 1;
+// setInterval(function(){
+//     document.getElementById("radio" + counter).checked = true;
+//     counter++;
+//     if (counter > 7) {
+//         counter = 1;
+//     }
+// }, 3000)
